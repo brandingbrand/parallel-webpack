@@ -1,3 +1,7 @@
+# BB Changes from Forked Module
+
+* Added process.exit() to the SIGINT handler in `index.js`; otherwise process will hang upon `ctl + c` -- 10/13/16 BMW
+
 # parallel-webpack - Building multi-configs in parallel
 
 `parallel-webpack` allows you to run multiple webpack builds in parallel,
