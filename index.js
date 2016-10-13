@@ -83,6 +83,8 @@ function run(configPath, options, callback) {
             console.log(chalk.red('[WEBPACK]') + ' Forcefully shutting down');
         }
         workerFarm.end(workers);
+
+        process.exit(0);
     });
 
     var startTime = Date.now();
