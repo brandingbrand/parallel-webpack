@@ -1,6 +1,7 @@
 # BB Changes from Forked Module
 
 * Added process.exit() to the SIGINT handler in `index.js`; otherwise process will hang upon `ctl + c` -- 10/13/16 BMW
+* Major version bumped to keep our forks version different from upstream in our npm
 
 # parallel-webpack - Building multi-configs in parallel
 
